@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.3
+@version        1.0.4
 @name           Dark Edna
 @description    Dark version of Edna.
 @namespace      Ash258
@@ -213,7 +213,7 @@
 	.fanweb .content .col-side,
 	.fanweb .content-fanweb-top-articles,
 	.web .footer {
-		background: none;
+		background: none !important;
 	}
 	div.content-fanweb-top-articles.articles div.head,
 	.col-side .box .translation .bar,
