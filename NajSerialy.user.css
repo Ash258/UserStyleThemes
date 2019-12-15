@@ -543,7 +543,7 @@
 	.base.login ul,
 	.base.contact .text,
 	.base.request {
-		color: #a9a9a9;
+		color: #a9a9a9 !important;
 	}
 	.menu button,
 	.info > .image.serial > .img-responsive,
