@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.2
+@version        1.0.3
 @name           Dark NajSerialy
 @description    Old (dark) version of najserialy.
 @namespace      Ash258
@@ -8,7 +8,7 @@
 @author         Ash258
 ==/UserStyle== */
 
-@-moz-document domain("najserialy.com"), domain("najserialy.to") {
+@-moz-document domain("najserialy.to") {
 	body {
 		background-color: #292929;
 		font-family: 'Open Sans', sans-serif;
@@ -533,6 +533,7 @@
 	.FSdetail .wrap .info .text .names h2,
 	.FSdetail .wrap .info .text .names h3,
 	.FSdetail .wrap .info .text .names h4,
+	.FSdetail .wrap .info .text .names h1 a,
 	.FSdetail .wrap .info .text .names h2 a,
 	.FSdetail .wrap .info .text .names h3 a,
 	.FSdetail .wrap .info .text .names h4 a,
