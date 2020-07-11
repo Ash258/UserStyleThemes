@@ -433,4 +433,12 @@
 	::-webkit-scrollbar-thumb:hover {
 		background: var(--orange) !important;
 	}
+	.ms-options-wrap > button {
+		border-color: var(--orange);
+		background-color: inherit;
+		color: inherit;
+	}
+	.ms-options-wrap > button:focus {
+		color: var(--orange);
+	}
 }
