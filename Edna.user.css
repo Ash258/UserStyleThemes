@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.6
+@version        1.0.7
 @name           Dark Edna
 @description    Dark version of Edna.
 @namespace      Ash258
@@ -55,7 +55,8 @@
 	div.adsense,
 	div.clearfix,
 	.fanweb .content .seriesadvert,
-	div#mother > a {
+	div#mother > a,
+	.banner .stickyleader {
 		display: none;
 	}
 	.icon-eye-open {
