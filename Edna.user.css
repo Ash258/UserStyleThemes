@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@version        1.0.8
+@version        1.0.10
 @name           Dark Edna
 @description    Dark version of Edna.
 @namespace      Ash258
 @homepageURL    https://github.com/Ash258/UserStyleThemes
 @updateURL      https://raw.githubusercontent.com/Ash258/UserStyleThemes/main/Edna.user.css
-@author         Ash258
+@author         Jakub "Ash258" Čábera <cabera.jakub@gmail.com>
 ==/UserStyle== */
 
 @-moz-document domain("edna.cz"), domain("edna2020.cz") {
@@ -106,7 +106,8 @@
 	}
 	form input[type="text"][required],
 	form input[type="password"][required],
-	form input:active {
+	form input:active,
+    .paginator #curentPage{
 		outline-color: var(--orange);
 		border: 3px solid var(--orange);
 	}
