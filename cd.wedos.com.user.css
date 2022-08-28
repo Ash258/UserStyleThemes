@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.0
+@version        1.0.1
 @name           Dark cd.wedos.com
 @description    DarkReader generated dark them for wedos cloud disk (nextcloud)
 @namespace      Ash258
@@ -99,6 +99,11 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
     }
 
     /* Modified CSS */
+    td.filesize,
+    .modified.live-relative-timestamp {
+        color: var(--darkreader-text--color-main-text) !important;
+    }
+
     html,
     body,
     div,
