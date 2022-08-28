@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.0
+@version        1.0.1
 @name           Dark docker hub
 @description 	DarkReader generated dark theme for hub.docker.com.
 @namespace      Ash258
@@ -101,11 +101,17 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 	/* Modified CSS */
 	.jss18,
 	.jss24,
+	.jss26,
 	.jss46,
 	.jss50,
-	.jss51 {
+	.jss51,
+	.jss103 {
 		background: inherit;
 		border: 1px solid #2496ed;
+	}
+
+	div.Select-control {
+		background-color: inherit !important;
 	}
 
 	.css-wjkxor {
