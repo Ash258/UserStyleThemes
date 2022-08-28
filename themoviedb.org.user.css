@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@version        1.0.0
+@version        1.0.2
 @name           Dark TMDB
 @description 	DarkReader generated dark theme for themoviedb.org.
 @namespace      Ash258
@@ -104,6 +104,28 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 	}
 
 	/* Modified CSS */
+	div.discussion_container span.avatar span,
+	div.discussion_container span.username a,
+	section.new_index form input[type=text],
+	div#lightbox_popup div.info a,
+	section.inner_content ul.images div.info a,
+	ol.leaderboard li a,
+	ol.leaderboard li h3,
+	ol.leaderboard li h4,
+	section.inner_content div.selector h3 a,
+	div.card.v4 div.details p,
+	div.card.v4.mini div.details div.sub_title {
+		color: rgb(232, 230, 227);
+	}
+
+	div.media.discover div.card.style_1 {
+		border: 1px solid rgb(1, 144, 182)
+	}
+
+	section.content_score div.content_score div {
+		background-color: rgb(0, 150, 70) !important;
+	}
+
 	a {
 		background-image: initial;
 		background-color: transparent;
@@ -9444,7 +9466,8 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 		color: rgb(168, 160, 149);
 	}
 
-	p a {
+	p a,
+	div.inner_block div.inner_content div.content div.stats_blocks div.stat_block h3 {
 		color: rgb(45, 210, 254);
 	}
 
@@ -12250,19 +12273,6 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 
 	div#ott_offers_window ul.providers li span.presentation_type {
 		color: rgb(225, 191, 81);
-	}
-
-	div.discussion_container span.avatar span,
-	div.discussion_container span.username a,
-	section.new_index form input[type=text],
-	div#lightbox_popup div.info a,
-	section.inner_content ul.images div.info a,
-	ol.leaderboard li a,
-	ol.leaderboard li h3,
-	ol.leaderboard li h4,
-	section.inner_content div.selector h3 a,
-	div.card.v4 div.details p {
-		color: rgb(232, 230, 227);
 	}
 
 	div#lightbox_popup div.info a:hover,
